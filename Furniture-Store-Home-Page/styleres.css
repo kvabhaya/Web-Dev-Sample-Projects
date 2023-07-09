@@ -1,0 +1,67 @@
+@media (max-width:800px)
+{
+    header{
+        height: 50px;
+        display: flex;
+        padding: 15px 7px;
+    }
+
+    .logo img{
+        max-width: 50px;
+        height: auto;
+    }
+
+    .navmenu a{
+        font-size: 10px;
+        padding: 7px 15px;
+        font-weight: 600;
+    }
+    .nav-icon i{
+        margin: 15px;
+        font-size: 10px;
+    }
+    .main-text h5{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .main-text h1{
+        font-size: 57px;
+        line-height: 1.0;
+        font-weight: 700;
+    }
+    .main-text p{
+        font-size: 23px;
+        margin-top: 9px;
+    }
+    .main-btn{
+        font-size: 18px;
+        font-weight: 600;
+        border: 1px solid rgb(0, 0, 0);
+        margin-top: 8px;
+        padding: 10px 22px;
+    }
+    footer{
+        margin: 22px 65px;
+        display: grid;
+        position: relative;
+        gap: 1rem;
+    }
+    footer h3{
+        margin: 12px 0 18px 0;
+    }
+    
+    .logofooter img{
+        max-width: 60px;
+        height: auto;
+    }
+    
+    .colfoo2 ul li{
+        margin: 0 0 8px 0;
+    }
+    .colfoo3 ul li{
+        margin: 0 0 8px 0;
+    }
+    .colfoo4 ul li{
+        margin: 0 0 8px 0;
+    }
+}
