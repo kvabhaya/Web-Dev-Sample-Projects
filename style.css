@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+
+.main img{
+    /* background-image: url(images/bg.jpeg); */
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    position: absolute;
+    /* background-position-y: bottom  ; */
+    margin-top: -247px;
+}
+
+.boy img{
+    position: absolute;
+    height: 35vh;
+    margin-top: 45vh;
+    margin-left: 10vw;
+    /* animation: boy-animate 20s linear delay 5 backwards; */
+    animation-name: boy-animate;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+}
+@keyframes boy-animate {
+    100%{
+        transform: translateX(72vw);
+    }
+}
+
+.dog img{
+    position: absolute;
+    width: 10vw;
+    margin-top: 72vh;
+    margin-left: 2vw;
+    animation-name: dog-animate;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-iteration-count: 5;
+}
+@keyframes dog-animate {
+    100%{
+        transform: translateX(72vw);
+    }
+}
+.plane img{
+    position: absolute;
+    height: 12vh;
+    padding-top: 10vh;
+    /* margin-left: 5vw; */
+    animation-name: plane-animate;
+    animation-timing-function: linear;
+    animation-duration: 25s;
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: 5; */
+}
+@keyframes plane-animate {
+    100%{
+        transform: translateX(300vw);
+        scale: 0.4;
+    }
+}
+
+.bird img{
+    position: absolute;
+    height: 15vh;
+    padding-top: 22vh;
+    margin-left: 10vw;
+    animation-name: bird-animate;
+    animation-timing-function: linear;
+    animation-duration: 22s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+@keyframes bird-animate {
+    100%{
+        transform: translateX(150vw);
+        scale: 0;
+    }
+}
